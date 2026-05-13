@@ -21,7 +21,7 @@ export default async function HomePage() {
       {/* Product Section */}
       <main className="max-w-7xl mx-auto px-4 py-12">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-[#2D4628]">Sản phẩm bán chạy</h2>
+          <h2 className="text-2xl font-bold bg-obaxua-green/80 text-obaxua-cream"> Sản phẩm bán chạy </h2>
         </div>
         
         {/* Truyền dữ liệu vào Component lọc */}
