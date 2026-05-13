@@ -6,7 +6,7 @@ export default async function HomePage() {
   const products = await getAllProducts();
 
   return (
-    <div className="bg-[#FDFBF7] min-h-screen">
+    <div className=" min-h-screen">
       {/* Banner Section */}
       <section className="max-w-4xl mx-auto px-4 pt-6">
         <div className="rounded-3xl overflow-hidden shadow-lg">

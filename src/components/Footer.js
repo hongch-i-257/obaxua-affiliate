@@ -19,7 +19,6 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-white">Khám phá</h4>
             <ul className="space-y-2 text-sm text-stone-300">
-              <li><Link href="/bot-thien-nhien" className="hover:text-white transition">Bột thiên nhiên</Link></li>
               <li><Link href="/cach-dung" className="hover:text-white transition">Cách dùng</Link></li>
               <li><Link href="/don-si" className="hover:text-white transition">Chính sách sỉ</Link></li>
               <li><Link href="/gioi-thieu" className="hover:text-white transition">Về chúng tôi</Link></li>
@@ -30,8 +29,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-white">Chính sách</h4>
             <ul className="space-y-2 text-sm text-stone-300">
-              <li className="hover:text-white cursor-pointer transition">Hướng dẫn mua hàng</li>
-              <li className="hover:text-white cursor-pointer transition">Chính sách Affiliate</li>
+              {/* <li className="hover:text-white cursor-pointer transition"></li> */}
+              <li className="hover:text-white cursor-pointer transition">Voucher hàng tuần</li>
               <li className="hover:text-white cursor-pointer transition">Cam kết chất lượng</li>
             </ul>
           </div>
@@ -53,7 +52,7 @@ export default function Footer() {
         {/* Dòng bản quyền */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-stone-400">
           <p>© 2026 Obaxua Review.</p>
-          <p className="mt-2 text-[10px]">Tất cả sản phẩm đều được dẫn trực tiếp từ TikTok Shop chính hãng.</p>
+          <p className="mt-2 text-[10px]">Tất cả sản phẩm đều được dẫn trực tiếp từ brand Obaxua chính hãng.</p>
         </div>
       </div>
     </footer>

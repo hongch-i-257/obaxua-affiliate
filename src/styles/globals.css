@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 body {
-  background-color: #FDFBF7; /* Màu kem đất chủ đạo của Obaxua */
-  color: #2D4628; /* Màu xanh lá đậm cho chữ */
+  background-image: url('/bg_obaxua.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Giúp ảnh nền đứng yên khi Chí cuộn trang */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #2D4628; 
 }
+/* color: #2D4628;  */
