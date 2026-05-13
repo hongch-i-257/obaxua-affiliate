@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FDFBF7; /* Màu kem đất chủ đạo của Obaxua */
+  color: #2D4628; /* Màu xanh lá đậm cho chữ */
+}
