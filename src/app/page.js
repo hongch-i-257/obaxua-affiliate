@@ -1,5 +1,6 @@
 import { getAllProducts } from '../lib/getProducts'; //
 import ProductListClient from '../components/ProductListClient';
+import BannerCarousel from '../components/BannerCarousel'; // 1. Import nó vào đây
 
 export default async function HomePage() {
   // Lấy dữ liệu sản phẩm tại Server
@@ -8,14 +9,9 @@ export default async function HomePage() {
   return (
     <div className=" min-h-screen">
       {/* Banner Section */}
-      <section className="max-w-4xl mx-auto px-4 pt-6">
-        <div className="rounded-3xl overflow-hidden shadow-lg">
-          <img 
-            src="/images/banners/banner-main.jpg" 
-            alt="Obaxua Banner" 
-            className="w-full h-auto object-cover"
-          />
-        </div>
+      <section className="w-full pt-6"> 
+        {/* Để w-full thay vì max-w-4xl để banner có không gian tràn ra 2 bên */}
+        <BannerCarousel />
       </section>
 
       {/* Product Section */}
