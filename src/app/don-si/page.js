@@ -138,7 +138,7 @@ export default function DonSiPage() {
         </div>
         {/* Ảnh đống thùng hàng bự tổ chảng bên phải */}
         <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white/10">
-          <img src="/images/banners/banner-donsi2.jpg" alt="Obaxua Kho Hàng" className="w-full h-auto object-cover aspect-[7/4]" />
+          <img src="/images/banners/banner-donsi2.jpg" alt="Obaxua Kho Hàng" className="w-full h-auto object-cover aspect-[7/6]" />
         </div>
       </section>
 
