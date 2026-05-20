@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 export default function DonSiPage() {
-  const zaloLink = "https://zalo.me/0912345678"; // Chí nhớ đổi số Zalo của Chí vào đây nhé
+  const zaloLink = "https://zalo.me/0862920522";
 
   // Quản lý trạng thái đóng/mở của phần Câu hỏi thường gặp (FAQ)
   const [openFaq, setOpenFaq] = useState(null);
