@@ -21,20 +21,20 @@ export default function DonSiPage() {
   ];
 
   const sanPhamSiu = [
-    { name: "Bột Đậu Đỏ", price: "48.000đ", img: "/images/banners/banner-main.jpg" }, // Chí đổi thành link ảnh sản phẩm thật nhé
-    { name: "Bột Cám Gạo", price: "45.000đ", img: "/images/banners/banner-main.jpg" },
-    { name: "Bột Cam Thảo", price: "55.000đ", img: "/images/banners/banner-main.jpg" },
-    { name: "Bột Diếp Cá", price: "48.000đ", img: "/images/banners/banner-main.jpg" },
-    { name: "Bột Tía Tô", price: "48.000đ", img: "/images/banners/banner-main.jpg" },
+    { name: "Bột Đậu Đỏ", price: "48.000đ", img: "/images/banners/banner-donsi.jpg" }, // Chí đổi thành link ảnh sản phẩm thật nhé
+    { name: "Bột Cám Gạo", price: "45.000đ", img: "/images/banners/banner-donsi.jpg" },
+    { name: "Bột Cam Thảo", price: "55.000đ", img: "/images/banners/banner-donsi.jpg" },
+    { name: "Bột Diếp Cá", price: "48.000đ", img: "/images/banners/banner-donsi.jpg" },
+    { name: "Bột Tía Tô", price: "48.000đ", img: "/images/banners/banner-donsi.jpg" },
   ];
 
   const faqs = [
     { q: "Có cần ôm hàng không?", a: "Dạ không bắt buộc ôm hàng số lượng lớn nhé ạ. Với chính sách CTV hoặc Sỉ Nhỏ, bạn có thể bắt đầu bằng số lượng cực ít để làm quen thị trường." },
-    { q: "Nhập sỉ bao nhiêu sản phẩm?", a: "Chỉ từ 3 - 5 sản phẩm bất kỳ là bạn đã được tính mức giá sỉ ưu đãi từ OBAXUA rồi nè." },
+    { q: "Nhập sỉ bao nhiêu sản phẩm?", a: "Dạ chỉ từ 50 sản phẩm bất kỳ là bạn đã được tính mức giá sỉ ưu đãi từ OBAXUA rồi nè." },
     { q: "Có hỗ trợ ship không?", a: "OBAXUA có chính sách hỗ trợ phí ship linh hoạt tùy theo giá trị đơn hàng sỉ của bạn, sẽ được tư vấn kỹ trong Zalo nha." },
-    { q: "Có hỗ trợ người mới không?", a: "Hỗ trợ tận tình luôn Chí ơi! Được cung cấp đầy đủ bài viết mẫu, hình ảnh chụp sẵn và video review chuyên nghiệp để chỉ việc đăng bán." },
+    { q: "Hàng thiên nhiên như thế này thì hạn sử dụng được bao lâu và bảo quản ra sao?", a: "Các dòng bột thiên nhiên nguyên chất của OBAXUA có hạn sử dụng từ 12 tháng kể từ ngày sản xuất (luôn date mới nhất khi giao sỉ). Bạn chỉ cần bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp là được, không cần điều kiện kho bãi quá phức tạp." },
     { q: "Chính sách đổi trả như thế nào?", a: "Đổi trả 1-1 miễn phí nếu sản phẩm có lỗi từ nhà sản xuất hoặc hư hỏng trong quá trình vận chuyển." },
-    { q: "Làm thế nào để trở thành affiliate?", a: "Bạn chỉ cần kết nối với Admin qua Zalo, tụi mình sẽ tạo link định danh cấp riêng cho bạn để bắt đầu tính hoa hồng tự động." },
+    { q: "Sản phẩm có đầy đủ giấy tờ công bố của Bộ Y Tế để bỏ sỉ vào các Spa/Shop lớn không?", a: "Toàn bộ sản phẩm thiên nhiên của OBAXUA đều có chứng nhận kiểm định, giấy công bố của Bộ Y Tế và hỗ trợ xuất hóa đơn rõ ràng, giúp bạn tự tin phân phối vào bất kỳ Spa hay shop mỹ phẩm lớn nào." },
   ];
 
   return (
@@ -43,9 +43,17 @@ export default function DonSiPage() {
       {/* 1. HERO SECTION */}
       <section className="max-w-7xl mx-auto px-4 pt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <span className="text-orange-600 font-semibold text-lg tracking-wide">Hợp tác cùng Obaxua</span>
+          <span className="
+            bg-gradient-to-r from-orange-400 to-amber-500
+            bg-clip-text text-transparent
+            font-extrabold
+            text-2xl md:text-4xl
+            tracking-wide
+          ">
+            Hợp tác cùng Obaxua
+          </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight drop-shadow-sm">
-            NHẬN SỈ SẢN PHẨM THIÊN NHIÊN OBAXUA
+            Đơn sỉ ổn định - Đồng hành lâu dài
           </h1>
           <p className="text-base text-obaxua-cream/90 max-w-md">
             Phù hợp cho TikToker, seller online, spa, shop mỹ phẩm và người muốn kinh doanh mỹ phẩm thiên nhiên.
@@ -59,22 +67,84 @@ export default function DonSiPage() {
             </a>
           </div>
           {/* Mấy cái icon nhỏ cam kết dưới nút */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/10 text-xs text-white/80">
-            <div>🔥 4000+ đơn mỗi ngày trên TikTok</div>
-            <div>🌱 Sản phẩm thiên nhiên lành tính</div>
-            <div>📸 Hỗ trợ content hình ảnh, video</div>
-            <div>🚚 Giao hàng toàn quốc đổi trả linh hoạt</div>
+         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/30">
+            {[
+              {
+                icon: "🔥",
+                title: "4000+ đơn",
+                desc: "mỗi ngày trên TikTok",
+              },
+              {
+                icon: "🌱",
+                title: "Sản phẩm",
+                desc: "thiên nhiên lành tính",
+              },
+              {
+               icon: "♻️",
+                title: "Đổi trả",
+                desc: "linh hoạt miễn phí",
+              },
+              {
+                icon: "🚚",
+                title: "Giao hàng",
+                desc: "toàn quốc linh hoạt",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="
+                  group relative overflow-hidden
+                  rounded-3xl
+                  bg-[#f6ead7]/85
+                  backdrop-blur-md
+                  border border-white/60
+                  px-4 py-5
+                  shadow-[0_10px_30px_rgba(0,0,0,0.06)]
+                  transition-all duration-300
+                  hover:-translate-y-1
+                  hover:shadow-[0_15px_35px_rgba(0,0,0,0.12)]
+                "
+              >
+                {/* light glow */}
+                <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent opacity-70"></div>
+
+                {/* icon */}
+                <div className="relative text-3xl mb-3">
+                  {item.icon}
+                </div>
+
+                {/* title */}
+                <h4 className="relative font-bold text-[#2f4b2f] text-base leading-tight">
+                  {item.title}
+                </h4>
+
+                {/* desc */}
+                <p className="relative text-sm text-[#4d4d4d] mt-1 leading-relaxed">
+                  {item.desc}
+                </p>
+
+                {/* hover decoration */}
+                <div className="
+                  absolute -right-6 -top-6
+                  w-20 h-20
+                  bg-white/30
+                  rounded-full blur-2xl
+                  opacity-0 group-hover:opacity-100
+                  transition-all duration-500
+                "></div>
+              </div>
+            ))}
           </div>
         </div>
         {/* Ảnh đống thùng hàng bự tổ chảng bên phải */}
         <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white/10">
-          <img src="/images/banners/banner-main.jpg" alt="Obaxua Kho Hàng" className="w-full h-auto object-cover aspect-[4/3]" />
+          <img src="/images/banners/banner-donsi2.jpg" alt="Obaxua Kho Hàng" className="w-full h-auto object-cover aspect-[7/4]" />
         </div>
       </section>
 
       {/* 2. DÀNH CHO AI? */}
       <section className="max-w-7xl mx-auto px-4 mt-20">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-white relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-black relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
           DÀNH CHO AI?
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
@@ -90,7 +160,7 @@ export default function DonSiPage() {
 
       {/* 3. SẢN PHẨM BÁN CHẠY */}
       <section className="max-w-7xl mx-auto px-4 mt-20">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-white relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-black relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
           SẢN PHẨM BÁN CHẠY
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
@@ -110,7 +180,7 @@ export default function DonSiPage() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <a href={zaloLink} target="_blank" rel="noopener noreferrer" className="inline-block bg-white/20 text-white font-bold text-xs px-6 py-2.5 rounded-xl border border-white/20 hover:bg-white/30 transition-all">
+          <a href={zaloLink} target="_blank" rel="noopener noreferrer" className="inline-block bg-white/20 text-black font-bold text-xs px-6 py-2.5 rounded-xl border border-white/20 hover:bg-white/30 transition-all">
             Xem tất cả sản phẩm
           </a>
         </div>
@@ -118,7 +188,7 @@ export default function DonSiPage() {
 
       {/* 4. QUY TRÌNH HỢP TÁC */}
       <section className="max-w-5xl mx-auto px-4 mt-20">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-white relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-black relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
           QUY TRÌNH HỢP TÁC
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 bg-white/80 backdrop-blur-sm p-6 rounded-[2rem] border border-white/20 shadow-lg">
@@ -131,19 +201,19 @@ export default function DonSiPage() {
             <p className="text-xs opacity-90">Nhận file báo giá chi tiết từng cấp bậc chiết khấu cực cao.</p>
           </div>
           <div className="p-4 text-center md:border-l border-obaxua-green/10">
-            <div className="font-bold text-xl text-orange-600 mb-1">3. CHỌN HÌNH THỨC</div>
-            <p className="text-xs opacity-90">Lựa chọn mô hình kinh doanh phù hợp: Sỉ, CTV hoặc Affiliate.</p>
+            <div className="font-bold text-xl text-orange-600 mb-1">3. TƯ VẤN</div>
+            <p className="text-xs opacity-90">Lựa chọn các sản phẩm phù hợp với nhu cầu của bạn.</p>
           </div>
           <div className="p-4 text-center md:border-l border-obaxua-green/10">
             <div className="font-bold text-xl text-orange-600 mb-1">4. BẮT ĐẦU</div>
-            <p className="text-xs opacity-90">Nhận hàng hoặc link affiliate cá nhân và bắt đầu bùng nổ doanh số.</p>
+            <p className="text-xs opacity-90">Chốt đơn và bắt đầu kinh doanh.</p>
           </div>
         </div>
       </section>
 
       {/* 5. CÂU HỎI THƯỜNG GẶP (FAQ) */}
       <section className="max-w-4xl mx-auto px-4 mt-20">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-white relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-10 text-black relative after:content-[''] after:block after:w-12 after:h-1 after:bg-orange-500 after:mx-auto after:mt-3">
           CÂU HỎI THƯỜNG GẶP
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
